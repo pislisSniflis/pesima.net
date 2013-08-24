@@ -1,1 +1,5 @@
-# PESIMA(http://pesima.net)
+# pesima.github.com
+
+Display for all the PESIMA projects.
+
+Adapted from [h5bp.github.com](https://github.com/h5bp/h5bp.github.com).

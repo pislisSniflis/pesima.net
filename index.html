@@ -1,40 +1,52 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <title>PESIMA &hearts; Open Source</title>
+        <meta name="description" content="Find all the PESIMA projects in one place.">
+        <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+        <div class="grid">
+            <div class="unit-1-3 site-header">
+                <div class="box">
+                    <div class="site-logo">
+                        <img src="assets/pesima-logo.png" alt="">
+                        <h1>PESIMA</h1>
+                    </div>
+                    <h2>A bunch of people creating open source software. Fork a project and get involved!</h2>
+                    <p class="stats">
+                        <a href="https://github.com/pesima/repositories"><b id="num-repos">View</b> public repos</a>
+                        <br>
+                        <a href="https://github.com/pesima?tab=members"><b id="num-members">View</b> members</a>
+                    </p>
+                    <h3>Recently updated</h3>
+                    <ol id="updated-repos"></ol>
+                    <a class="twitter-share-button"
+                       href="http://twitter.com/share"
+                       data-text="All the PESIMA projects in one place"
+                       data-url="http://pesima.github.com/"
+                       data-via="pesima"
+                       data-count="none"
+                       target="_blank">Tweet</a>
+                    <a class="twitter-follow-button"
+                        href="https://twitter.com/pesima"
+                        data-show-count="false"
+                        data-lang="en"
+                        data-count="none">Follow @pesima</a>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+                </div>
+            </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+            <div class="site-content" id="repos"></div>
+        </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        <footer class="site-footer">
+            <p>PESIMA logo: <a href="downloads/pesima-logo.svg">SVG</a> &middot; <a href="downloads/pesima-logo.png">PNG</a></p>
+        </footer>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/jquery-1.7.1.min.js"><\/script>')</script>
+        <script src="assets/app.js"></script>
     </body>
 </html>

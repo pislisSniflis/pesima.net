@@ -1,6 +1,6 @@
-# Contributing to HTML5 Boilerplate
+# Contributing to PESIMA
 
-♥ [HTML5 Boilerplate](http://html5boilerplate.com) and want to get involved?
+♥ [PESIMA](http://pesima.net) and want to get involved?
 Thanks! There are plenty of ways you can help!
 
 
@@ -44,7 +44,7 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
-**[File a bug report](https://github.com/h5bp/html5-boilerplate/issues/)**
+**[File a bug report](https://github.com/pesima/pesima.github.io/issues/)**
 
 
 ## Pull requests
@@ -66,11 +66,11 @@ project:
 
    ```bash
    # Clones your fork of the repo into the current directory in terminal
-   git clone https://github.com/<your-username>/html5-boilerplate.git
+   git clone https://github.com/<your-username>/pesima.github.com.git
    # Navigate to the newly cloned directory
-   cd html5-boilerplate
+   cd pesima.github.com
    # Assigns the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/h5bp/html5-boilerplate.git
+   git remote add upstream https://github.com/pesima/pesima.github.com.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -112,7 +112,7 @@ project:
 ## Do not…
 
 Please **do not** use the issue tracker for personal support requests (use
-[StackOverflow](http://stackoverflow.com/questions/tagged/html5boilerplate) or IRC).
+[StackOverflow](http://stackoverflow.com/questions/tagged/pesima) or IRC).
 
 Please **do not** derail or troll issues. Keep the
 discussion on topic and respect the opinions of others.
