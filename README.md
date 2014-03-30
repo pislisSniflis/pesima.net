@@ -1,4 +1,4 @@
-# pesima.github.com
+# PESIMA
 
 Display for all the PESIMA projects.
 
